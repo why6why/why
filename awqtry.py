@@ -2,7 +2,8 @@ from awq import AutoAWQForCausalLM
 from transformers import AutoTokenizer
 
 # Specify paths and hyperparameters for quantization
-model_path = "./.cache/modelscope/hub/qwen/Qwen2-7B"
+# model_path = "./.cache/modelscope/hub/qwen/Qwen2-7B"
+model_path = "./bmodel/qwen/Qwen2-1___5B-Instruct"
 quant_path = "./QUmodel"
 quant_config = { "zero_point": True, "q_group_size": 128, "w_bit": 4, "version": "GEMM" }
 

@@ -1,3 +1,4 @@
+# 用于模型量化与调微conda环境
 name: new_torch
 channels:
   - pytorch
